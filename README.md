@@ -23,11 +23,11 @@ go build main.go
 ./main -f -n 1 my-file-to-tail.log >> /path/to/output_json.log
 ```
 
-###Setup to use with New Relic infrastructure agent to send Logs
+### Setup to use with New Relic infrastructure agent to send Logs
 Requisite: Install the last New Relic infrastructure agent, version 1.11.4 or higher   
 documentation: https://docs.newrelic.com/docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/forward-your-logs-using-infrastructure-agent
 
-###Linux configuration sample
+### Linux configuration sample
 Navigate to the logging forwarder configuration folder:   
 /etc/newrelic-infra/logging.d/
    
