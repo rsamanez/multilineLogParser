@@ -17,7 +17,7 @@ go get github.com/marcsauter/single
 go build main.go
 ```
 
-##Run Command
+### Run Command
 ```
 ./main -f -n 1 my-file-to-tail.log
 ./main -f -n 1 my-file-to-tail.log >> /path/to/output_json.log
