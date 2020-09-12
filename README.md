@@ -6,8 +6,8 @@
     
  To be sure that the application is always running you can create a cron to relaunch the application, and always will be running only one instance of it
  
-##Single
-single provides a mechanism to ensure, that only one instance of a program is running.
+## Single
+single provides a mechanism to ensure, that only one instance of a program is running.   
 The package currently supports linux, solaris and windows.
 ## Requiere Packages to compile
 
